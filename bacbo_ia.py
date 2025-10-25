@@ -533,7 +533,7 @@ def main_loop():
                         print(f"  Estratégia: {origem}")
                         print(f"  Confiança: {confianca_atual*100:.1f}%")
                         print(f"  Previsão: {aposta.upper()}")
-                        print(f"  Últimos 5: {' → '.join(ultimos5_arquivo)}   
+                        print(f"  Últimos 5: {' → '.join(ultimos5_arquivo)}")   
                         print(f"{'─'*80}")
                         print(f"  Vitórias: {metricas.sucessos} | Derrotas: {metricas.get_derrotas()} | Taxa: {metricas.get_taxa_acertos():.1f}%")
                         print(f"  Sequência Atual: {metricas.sequencia_atual} | Maior: {metricas.maior_sequencia}")
